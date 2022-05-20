@@ -1,13 +1,13 @@
 # NLP_Blog-multi-label-classification
 
-# DOMAIN: Digital content management
+### DOMAIN: Digital content management
 
-# CONTEXT
+### CONTEXT
 Classification is probably the most popular task that you would deal with in real life. Text in the form of blogs, posts, articles, etc.
 are written every second. It is a challenge to predict the information about the writer without knowing about him/her. We are going to create a
 classifier that predicts multiple features of the author of a given text. We have designed it as a Multi label classification problem.
 
-# DATA DESCRIPTION: 
+### DATA DESCRIPTION: 
 Over 600,000 posts from more than 19 thousand bloggers The Blog Authorship Corpus consists of the collected posts of
 19,320 bloggers gathered from blogger.com in August 2004. The corpus incorporates a total of 681,288 posts and over 140 million words - or
 approximately 35 posts and 7250 words per person. Each blog is presented as a separate file, the name of which indicates a blogger id# and
@@ -20,7 +20,7 @@ marked as unknown.) All bloggers included in the corpus fall into one of three a
 common English words. All formatting has been stripped with two exceptions. Individual posts within a single blogger are separated by the
 date of the following post and links within a post are denoted by the label url link.
 
-# PROJECT OBJECTIVE: 
+### PROJECT OBJECTIVE: 
 To build a NLP classifier which can use input text parameters to determine the label/s of the blog. Specific to this case
 study, you can consider the text of the blog: ‘text’ feature as independent variable and ‘topic’ as dependent variable
 
